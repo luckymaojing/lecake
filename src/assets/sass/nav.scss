@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  background: white;
+  z-index: 3;
+}
+.header_con{
+  width: 100%;
+  height: 90px;
+  background: white;
+  position: fixed;
+  box-shadow: 0px 5px 10px -5px#ccc;
+  z-index: 3;
+}
+.container {
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  background: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: space-between;
+  z-index: 6;
+}
+.logo {
+  display: block;
+  width: 200px;
+  height: 90px;
+  cursor: pointer;
+  background: url(../img/home2/ia_200000029.png) no-repeat center center;
+}
+.header_nav {
+  width: 448px;
+  height: 90px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  left: -12%;
+}
+.header_nav a {
+  cursor: pointer;
+}
+.header_nav li:nth-child(4) {
+  position: absolute;
+  right: -56px;
+}
+.header_nav li a:hover {
+  color: #ff4001;
+}
+.container .header_nav li .active {
+  color: #ff4001 !important;
+}
+.header_right {
+  display: flex;
+  width: 264px;
+  height: 90px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.header_right .size {
+  font-size: 20px;
+}
+.header_right .yourAddress .searchAddress a {
+  font-size: 12px;
+  color: #949494;
+  margin-left: 20px;
+}
+.header_right .font_icon {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginAndreg li {
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  color: black;
+  outline: none;
+}
+.el-dropdown-link:hover {
+  color: #ff4001;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+
+.header_right {
+  position: relative;
+}
+.loginAndreg {
+  background: white;
+  width: 120px;
+  height: 80px;
+  box-shadow: 0px 0px 5px #ccc;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: 99999;
+}
+.login:hover {
+  cursor: pointer;
+  color: #ff4001;
+}
+.reg:hover {
+  cursor: pointer;
+  color: #ff4001;
+}
+.yourcar {
+  position: absolute;
+  width: 300px;
+  padding: 10px 0;
+  box-shadow: 0px 0px 5px #ccc;
+  background: white;
+  right: -40px;
+  top: 70px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 12px;
+}
+.yourcar span {
+  color: #949494;
+}
+.address a:hover {
+  color: #ff4001;
+}
+.font_icon {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.xiaosanjiao1 {
+  position: absolute;
+  left: 45%;
+  top: -15px;
+}
+.xiaosanjiao2 {
+  position: absolute;
+  right: 54px;
+  top: -15px;
+}
+.searchbox {
+  position: absolute;
+  width: 840px;
+  right: 110px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: white;
+  overflow: hidden;
+  transition: width 0.6s;
+}
+.mybox-enter-active,
+.mybox-leave-active {
+  transition: all 1s ease;
+}
+.mybox-leave-to,
+.mybox-enter {
+  width: 0 !important;
+  height: 0 !important;
+}
+.mybox-leave-active,
+.mybox-enter-active {
+  width: 840px;
+  height: 90px;
+}
+.search {
+  width: 360px;
+  border-radius: 18px;
+  outline: none;
+  padding: 5px 10px;
+}
+.close {
+  cursor: pointer;
+}
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
+  color: #ff4001;
+  background: none;
+}
+.icon_search {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../../assets/img/home2/ia_100000002774.png) no-repeat;
+  background-position: -118px -120px;
+}
+.icon_user {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../../assets/img/home2/ia_100000002774.png) no-repeat;
+  background-position: -160px -120px;
+}
+.icon_car {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../../assets/img/home2/ia_100000002774.png) no-repeat;
+  background-position: -202px -120px;
+}

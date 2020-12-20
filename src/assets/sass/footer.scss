@@ -1,0 +1,52 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.footer_online {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  position: relative;
+  .conlist {
+    display: flex;
+    a {
+      display: block;
+      color: #3e3e3e;
+      margin-right: 40px;
+      &:hover {
+        color: #ff4001;
+      }
+    }
+  }
+  .question{
+    color: #3e3e3e;
+    padding: 20px 0;
+  }
+  .copyright{
+    color: #949494;
+    padding: 15px 0;
+    a{
+      color: #949494;
+      padding: 0 5px;
+      &:hover{
+        color: #ff4001;
+      }
+    }
+  }
+  .erweima{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    img{
+      width: 107px;
+      height: 107px;
+    }
+    span{
+      color: #3e3e3e;
+    }
+  }
+}

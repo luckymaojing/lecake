@@ -1,0 +1,90 @@
+.Regmain {
+  width: 100%;
+  padding-bottom: 120px;
+  box-shadow: 0 0 10px rgba(222, 222, 222, 0.6);
+  .demo-ruleForm {
+    padding-top: 200px;
+    width: 250px;
+    margin: 0 auto;
+    .el-form-item {
+      border-bottom: 1px solid #ccc;
+      .el-form-item__content {
+        .el-input {
+          .el-input__inner {
+            border: none !important;
+          }
+          .el-input__prefix {
+            .el-icon-myphone {
+              background: url(../../assets/img/home/icons_2.png) center center
+                no-repeat;
+              background-position: -50px 0;
+            }
+            .el-icon-mypsw {
+              background: url(../../assets/img/home/icons_2.png) center center
+                no-repeat;
+              background-position: -10px 0;
+            }
+            .el-icon-myyzm {
+              background: url(../../assets/img/home/icons_2.png) center center
+                no-repeat;
+              background-position: -90px 0;
+            }
+          }
+          .el-input__suffix{
+            .el-input__icon{
+              display: none;
+            }
+          }
+        }
+        .el-button{
+          border-radius: 0;
+          border-bottom: none;
+          background: #ff4001;
+          color: white;
+        }
+      }
+      &:nth-child(4) {
+        width: 152px;
+        .el-form-item__content{
+          width: 300px;
+          display: flex;
+          .el-input__inner{
+            margin-right: 78px;
+          }
+        }
+        .yzm{
+          width: 250px;
+          height: 32px;
+        }
+      }
+      &:nth-child(5) {
+        width: 152px;
+        .postyzm {
+          position: absolute;
+          width: 90px;
+          height: 30px;
+          background: #ff4001;
+          line-height: 30px;
+          color: white;
+          padding: 0;
+          margin-top: 10px;
+        }
+      }
+    }
+    .reg {
+      width: 250px;
+      height: 50px;
+      background: #ff4001;
+      border: none;
+      border-radius: 0;
+    }
+  }
+  .agreement {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    a {
+      color: #fe4320;
+    }
+  }
+}
